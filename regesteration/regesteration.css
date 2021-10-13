@@ -1,0 +1,88 @@
+
+
+.box{
+    font-family: 'Kalam', cursive;
+    /* font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Satisfy', cursive; */
+
+	position:absolute;
+	top:10%;
+	left:35%;
+	width:400px;
+    transform:transform(-50%,-50%);
+     background:rgba(255, 255, 255, 0.8);
+	 padding:40px;
+	 box-sizing:border-box;
+	 border-radius:10px;
+	 
+   	
+}
+input:-internal-autofill-selected {
+    background-color: rgb(255, 255, 255) !important;
+    background-image: none !important;
+    color: rgb(0, 0, 0) !important;
+   color: -internal-light-dark(rgb(255, 255, 255), white) !important;
+   appearance: menulist-button;
+}
+
+
+.box{
+    box-shadow: -1px 3px 9px 0px #bdbdbd; 
+}
+.box h2{
+margin:0 0 30px;
+padding:0;
+color:rgb(0, 0, 0);
+text-align:center;
+}
+.box .box-input{
+position:relative;
+	padding: 10px 0;
+	
+	
+}
+
+.box .box-input input{
+	width:100%;
+	font-size:16px;
+	color:rgb(0, 0, 0);
+	padding:10px 5px;
+	margin-bottom:24px;
+	border:none;
+	border-bottom:1px solid rgb(0, 0, 0);
+	outline:none;
+	background:transparent;
+}
+.box .box-input label{
+	position:absolute;
+	top:0;
+	left:0;
+	font-size:16px;
+	color:rgb(0, 0, 0);
+	padding:10px 0; 
+	pointer-events:none;
+	transition:.5s;
+	
+}
+.box .box-input input:focus ~label,
+.box .box-input input:valid ~ label
+{
+	top:-18px;
+	left:0;
+	color:#03a9f4;
+	font-size:12;
+		
+}
+
+.box input[type="submit"] { 
+      background:transparent;
+border:none;
+outline:none;
+color:#fff;
+background:#03a9f4;
+padding:10px 20px;
+cursor:pointer;
+border-radius:5px;
+
+
+}

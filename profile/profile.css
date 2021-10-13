@@ -1,0 +1,144 @@
+
+*{
+
+    box-sizing: border-box;
+}
+body{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*flex  */
+.flex{
+    display: flex;
+   
+}
+/*flex  */
+
+/*container*/
+.container{
+    width:90%;
+    margin: 0 auto;
+}
+
+
+
+
+/* ////start profile  */
+
+.Account-content{
+    
+    border: 2px  solid;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.list-profile {
+    width: 30%;
+    border-right: solid 1px #000;
+}
+
+.box-img {
+text-align: center;
+}
+
+
+.box-btn-list{
+
+    flex-direction: column;
+    margin-top: 50px;
+}
+.Account  button{
+    width: 70%;
+    color: #fff;
+    background-color: #007bff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin: 5px 20px;
+    margin: 5px auto;
+    display: block;
+}
+
+
+
+.profile-imge {
+    width: 76px;
+    height: 73px;
+    
+}
+.header-edit{
+    margin-bottom: 70px;
+    
+}
+
+
+.header-edit h2{margin: 0;}
+.inf-profile {
+   
+    padding: 3rem!important;
+    box-sizing: border-box;
+     width: 100%;
+}
+
+
+.input-info {
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+    }
+
+.input-info div{
+flex-direction: column;
+margin-bottom: 40px;
+flex-wrap: nowrap;
+width: 45%;
+
+
+}
+.input-info div label{
+    margin-bottom: 10px;
+}
+.input-info div input{
+    width: 100%;
+    height: 30px;
+   border-radius: 8px;    
+   outline: 0;
+   padding: 5px 10px;
+   font-size: 20px;
+}
+
+
+
+
+
+.input-submit input ,.input-submit #cancel{
+    width:100px;
+    color: #fff;
+    background-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 5px;
+    
+}
+
+
+.input-submit  #cancel{
+    background-color: rgb(173, 84, 84);
+}
+
+
+.display{
+
+    display: none;
+}
+
+
+.view{
+
+
+}
